@@ -1,5 +1,5 @@
 import { usePage } from '@inertiajs/react'
-import IntlMessageFormat from 'intl-messageformat'
+import { IntlMessageFormat } from 'intl-messageformat'
 
 // Define a type for the formatter function
 type Formatter = (message: string, data: Record<string, any>, locale: string) => string

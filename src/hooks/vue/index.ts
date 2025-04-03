@@ -1,6 +1,6 @@
 import { usePage } from '@inertiajs/vue3'
 import { computed } from 'vue'
-import IntlMessageFormat from 'intl-messageformat'
+import { IntlMessageFormat } from 'intl-messageformat'
 
 // Define a type for the formatter function
 type Formatter = (message: string, data: Record<string, any>, locale: string) => string
